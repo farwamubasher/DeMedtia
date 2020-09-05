@@ -1,0 +1,66 @@
+/* app css stylesheet */
+.done-true {
+  text-decoration: line-through;
+}
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #FCF2D8;
+}
+
+h1 {
+  font-style: italic;
+  color: #1261A0;
+  allign-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #91daf5;
+  display: inline-block;
+  width: 102%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+
+
+button {
+  font-size: 20px;
+  border-radius: 6px;
+  background-color: #FCF2D8;
+  border: 1px solid #91daf5;
+  box-shadow: 2px 2px #F8DECE;
+  cursor: pointer;
+  width: 300px;
+  margin-bottom: 20px;
+
+  button:hover {
+    background-color: grey;
+  }
+
+  button:active {
+    box-shadow: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid lightgrey;
+  }
+}
+
+
+
+

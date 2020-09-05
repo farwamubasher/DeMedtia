@@ -1,0 +1,65 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Choose an Option</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://DemedtiaPlus.tech"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Choose An Option
+      </h1>
+    </header>
+
+    <main>
+      <form>
+        <button type="My Medicine Cabinet" id="My Medicine Cabinet">
+          <a href="medicine.html">My Medicine Cabinet</a>
+        </button>
+        <button type="My Location" id="My Location ">
+          <a href="location.html">My Location</a>
+        </button>
+        <button type="My Healthcare Records" id="My Healthcare Records">
+          <a href="patienthealth.html">My Healthcare Records</a>
+        </button>
+        <button type="Book an Appointment" id="Book an Appointment">
+          <a href="appointment.html">Book an Appointment</a>
+        </button>
+        <button type="Reminder" id="Reminder">
+          <a href="reminder.html">Reminders</a>
+        </button>
+        <button type="Tasks" id="Tasks">
+          <a href="tasks.html">Tasks</a>
+        </button>
+      </form>
+
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+  </body>
+</html>
