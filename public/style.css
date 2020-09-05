@@ -1,0 +1,111 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #FCF2D8;
+}
+
+h1 {
+  font-style: italic;
+  color: #1261A0;
+  allign-items: center;
+}
+h2 {
+  color: #373fff;
+  allign-items: center;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #91daf5;
+  display: inline-block;
+  width: 102%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 6px;
+  background-color: #FCF2D8;
+  border: 1px solid #91daf5;
+  box-shadow: 2px 2px #F8DECE;
+  cursor: pointer;
+  width: 300px;
+  margin-bottom: 20px;
+
+  button:hover {
+    background-color: grey;
+  }
+
+  button:active {
+    box-shadow: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid lightgrey;
+  }
+}
+button {
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #91daf5;
+  box-shadow: 2px 2px #F8DECE;
+  cursor: pointer;
+  width: 270px;
+  margin-bottom: 15px;
+
+  button:hover {
+    background-color: grey;
+  }
+
+  button:active {
+    box-shadow: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid lightgrey;
+  }
+}
+
+.done {
+  border: 36pt solid black;
+  animation: pulse 1s ease 0s infinite alternate;
+}

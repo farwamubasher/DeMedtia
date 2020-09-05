@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="todoapp">
+<head>
+  <script src="angular.js"></script>
+  <script src="todo.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+  <h1>Tasks 📝 </h1>
+    <form>
+    <div ng-controller="TodoListController as todoList">
+      <p>
+         Sunday Feburary 16,2020
+      </p>
+      <span>{{todoList.remaining()}} of {{todoList.todos.length}} Medications left to Take!</span>
+       
+      <ul class="unstyled">
+        <li ng-repeat="todo in todoList.todos">
+          <label class="checkbox">
+            <input type="checkbox" ng-model="todo.done">
+            <span class="done-{{todo.done}}">{{todo.text}}</span>
+          </label>
+        </li>
+      </ul>
+    </div>  
+     <ng-submit="todoList.addTodo()">
+         <button type="Back" id="Back">
+        <a href="MainPage.html">Back</a></button>
+       </form>
+</html>
